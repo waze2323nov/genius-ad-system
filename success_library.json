@@ -1,0 +1,41 @@
+{
+  "_README": "成功广告参考库。把你 Google Drive 里的成功广告导出后填进来。系统按 行业 + 活动目标 匹配一条，把它的「结构」（不是文字）注入 ChatGPT-5.4，把视觉笔记注入 gpt-image-2。绝不照抄原文。条目越多、越新越好。",
+  "ads": [
+    {
+      "id": "edu-acquisition-01",
+      "industry": "education",
+      "objective": "acquisition",
+      "platform": "facebook",
+      "performance": "高点击率（占位 — 换成你的真实数据）",
+      "copyStructure": {
+        "hookStyle": "用一个框定目标、而非弱点的短问题切入，邀请家长，不预设任何前提。",
+        "bodyFlow": "可信度（创办年份 / 覆盖范围）-> 涵盖科目 -> 上课感觉（以学生为中心）-> 单一柔性见证 -> 低门槛的下一步。",
+        "ctaStyle": "先免费试课的柔性邀请，搭配 Send Message 按钮。",
+        "rhythm": "一行钩子，2-3 行短句正文，留白充足，最多一个表情。"
+      },
+      "imageNotes": {
+        "scene": "温馨的在家线上学习场景，或屏幕上亲切的老师视讯画面。",
+        "palette": "明亮、乐观；品牌黄 + 蓝点缀。",
+        "composition": "单一清晰焦点（学生或屏幕），背景简洁。"
+      }
+    },
+    {
+      "id": "edu-engagement-01",
+      "industry": "education",
+      "objective": "awareness",
+      "platform": "facebook",
+      "performance": "高互动（占位）",
+      "copyStructure": {
+        "hookStyle": "贴近日常的学习小情境，开启一个小故事，引发家长共鸣与留言。",
+        "bodyFlow": "小故事 / 缘起 -> 价值观（以学生为中心的使命）-> 邀请私讯了解。",
+        "ctaStyle": "Send Message，不硬销。",
+        "rhythm": "稍长、叙事，仍分成短段落。"
+      },
+      "imageNotes": {
+        "scene": "真实的课堂 / 学习小组温度感，人物从背面或淡化处理。",
+        "palette": "柔和、有人情味、自然光。",
+        "composition": "生活感构图，不是产品硬照。"
+      }
+    }
+  ]
+}
